@@ -1,6 +1,6 @@
 /* Şiir Nefestir – çevrimdışı çalışma: kitap (index.html) önce ağdan, olmazsa önbellekten;
    ses/video dosyaları önbellekte varsa oradan (Range destekli), yoksa ağdan gelir ve arka planda saklanır. */
-const SURUM = "nefes-v1";
+const SURUM = "nefes-v2";
 const CEKIRDEK = ["./", "./index.html", "./manifest.webmanifest", "./ikon-192.png", "./ikon-512.png", "./apple-touch-icon.png"];
 const bekleyen = new Set();
 
